@@ -49,15 +49,15 @@ def predict_churn(customer: CustomerData):
     try:
         X_processed = preprocessor.transform(df)
             
-        # 2. Fazer a previsão (DESCOMENTE ISSO DEPOIS QUE TIVERMOS O MODELO.PKL)
-        # prediction = model.predict(X_processed)
-        # probability = model.predict_proba(X_processed)[0][1] # Pega a propabilidade da classe 1
+        # 2. Fazer a previsão
+        prediction = model.predict(X_processed)
+        probability = model.predict_proba(X_processed)[0][1] # Pega a propabilidade da classe 1
             
         return {
             "status": "sucesso",
             "message": "Dados processados perfeitamente pelo ColumnTransformer!",
-            # "churn_prediction": int(prediction[0]),
-            # "churn_probability": round(float(probability), 4)
+            "churn_prediction": int(prediction[0]),
+            "churn_probability": round(float(probability), 4)
         }
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
