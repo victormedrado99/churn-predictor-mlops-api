@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.git/
+.gitignore
+README.md
+agente.md
+notebooks/
+mlruns/
+data/raw/

@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# MLflow
+mlruns/
+
+# Dados
+# Ignoramos a pasta raw para não subir arquivos pesados/sensíveis no GitHub,
+# Mas vamos manter a processed/ pois a AWS precisará dos .pkl para rodar a API.
+data/raw/
+*.xlsx
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
