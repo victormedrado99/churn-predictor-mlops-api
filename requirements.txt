@@ -1,8 +1,8 @@
 fastapi
 uvicorn
 pydantic
-pandas
-scikit-learn
+pandas==2.3.3
+scikit-learn==1.9.0
 joblib
-xgboost
-imbalanced-learn
+xgboost==3.4.0
+imbalanced-learn==0.14.2
