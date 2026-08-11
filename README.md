@@ -33,7 +33,7 @@ Ter o [Docker](https://www.docker.com/) e o `docker-compose` instalados na máqu
 ### Passos para subir a API
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/SEU-USUARIO/churn-predictor-mlops-api.git
+   git clone https://github.com/victormedrado99/churn-predictor-mlops-api.git
    cd churn-predictor-mlops-api
    ```
 2. Construa e inicie o container:
