@@ -44,4 +44,4 @@ Ter o [Docker](https://www.docker.com/) e o `docker-compose` instalados na máqu
    🔗 `http://localhost:8000/docs` ou `http://<IP-DA-AWS>/docs`
 
 ## 👨‍💻 Desenvolvedor
-Desenvolvido por **Victor Medrado** - Estudante de Machine Learning Engineering na **FIAP**.
+Desenvolvido por **Victor Medrado**
